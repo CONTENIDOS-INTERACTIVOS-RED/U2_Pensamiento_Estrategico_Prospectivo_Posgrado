@@ -1,0 +1,343 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.container.tarjeta
+  overflow-y: hidden
+
+.banner-interno__fondo
+  background-color: $color-banner-interno-fondo !important
+
+.home-main-title
+  font-size: 18px
+  font-weight: 700
+
+.home-title
+  font-size: 38px !important
+  font-weight: 900 !important
+
+.brounded
+  border-radius: 16px !important
+
+.brounded-sm
+  border-radius: 8px !important
+
+.bg-color
+  &-1
+    background-color: #D8F5F5 
+  &-2
+    background-color: #FEE3D8
+  &-3
+    background-color: #EAF2FB 
+  &-4
+    background-color: #E2E9F3
+
+  &-sintesis
+    background-color: #F9F9F9
+  &-white
+    background-color: #fff
+
+.border-top.color-primario
+  border-top: 5px solid $color-primario !important
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/bg1.png") !important
+    background-position: center
+  &-2
+    background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  &-slider
+    background-image: url("../assets/bg/bg-slider.png") !important
+    background-position: bottom
+
+// Variables
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 268px
+    object-fit: cove
+
+.acordion__header
+  background-color: lighten($color-terciario, 24%) !important
+
+.acordion__header--active
+  background-color: $color-terciario !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: lighten($color-terciario, 25%) !important
+
+.anexo__texto
+  p, strong
+    font-size: 14px !important
+    color: #000 !important
+
+.bloque-texto-c
+  padding: 34px !important
+  p
+    font-size: 22px  !important
+    line-height: 26.4px !important
+    font-weight: 700 !important
+  i
+    color: $color-primario !important
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+  border: 2px solid rgba(0,0,0,0.1)
+
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+
+.tabs-content
+  background-color: #FDF9F3
+
+.material-complementario
+  p,a
+    font-size: 1rem !important
+  a
+    text-decoration: none
+    color: $color-sistema-texto
+
+.img-infografica
+  background-color: transparent
+
+.img-infografica__item, .img-infografica-b__item
+  width: 48px !important
+  @media screen and (max-width: $bp-max-sm)
+    width: 38px !important
+  
+
+.img-infografica__item__dot:before, .img-infografica-b__item__dot:before
+  opacity: 1
+  border: 0px solid #FEFAF3
+  background-color: #F8BC17
+
+.img-infografica__card, .img-infografica-b__card
+  width: 450px !important
+  
+.img-infografica__item__numero
+  font-weight: 900
+
+
+
+.lista-ol--cuadro__vineta
+  background-color: $color-secundario
+  color: #000
+  min-width: 32px
+  min-width: 28px
+  height: 28px
+
+  span
+    font-size: 0.85em
+
+
+///////////////////
+//colors
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+.fondo-color-sistema-q
+  background-color: $color-sistema-q
+
+.tabla-a
+  thead
+    th
+      background-color: #792D73 !important
+  td,th
+    border-right: 1px solid #D9D9D9
+
+  tbody tr td:first-child
+    border-right: 1px solid #D9D9D9
+  tbody tr td:last-child
+    border-right: none
+
+.sombra-p-1
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.32)
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.32)
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.32)
+
+.img-infografica__item
+  width: 40px !important
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.pos-center
+    &:before
+      background-position: center
+  &.size-full
+    &:before
+      background-size: 100%
+    &.med
+      @media screen and (max-width: $bp-max-md)
+        &:before
+          background-size: cover
+  &.pos-center
+    &:before
+      background-position: center
+  &.bottom-1
+    &:before
+      bottom: 50px
+  &.f1
+    &:before
+      background-image: url(../assets/curso/intro/2.png)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/tema2/7.png)
+  &__contenido
+    position: relative
+
+//bordes
+.no-borde
+  border: none !important
+.borde-2
+  border-radius: 2px
+.borde-3
+  border-radius: 3px
+.borde-4
+  border-radius: 4px
+.borde-5
+  border-radius: 5px
+.borde-6
+  border-radius: 6px
+.borde-8
+  border-radius: 8px
+.borde-9
+  border-radius: 9px
+.borde-10
+  border-radius: 10px
+.borde-11
+  border-radius: 11px
+.borde-12
+  border-radius: 12px
+.borde-13
+  border-radius: 13px
+.borde-14
+  border-radius: 14px
+.borde-15
+  border-radius: 15px
+.borde-16
+  border-radius: 16px
+.borde-17
+  border-radius: 17px
+.borde-18
+  border-radius: 18px
+.borde-19
+  border-radius: 19px
+.borde-20
+  border-radius: 20px
+.borde-21
+  border-radius: 21px
+.borde-22
+  border-radius: 22px
+.borde-23
+  border-radius: 23px
+.borde-27
+  border-radius: 27px
+.borde-30
+  border-radius: 30px
+.borde-31
+  border-radius: 31px
