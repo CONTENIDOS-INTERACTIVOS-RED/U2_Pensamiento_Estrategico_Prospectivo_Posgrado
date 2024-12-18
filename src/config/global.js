@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Estrategia y pensamiento complejo',
+    numeroUnidad: '2',
+    tituloUnidad: 'Prospectiva y escenarios futuros',
   },
   menuPrincipal: {
     menu: [

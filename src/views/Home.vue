@@ -22,9 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde el origen de la humanidad, el análisis del futuro ha sido fundamental para la toma de decisiones estratégicas. El pensamiento estratégico y prospectivo, en este contexto, se presenta como una herramienta esencial para anticipar escenarios y construir soluciones efectivas en un entorno en constante cambio. En esta primera unidad, se profundizará en los conceptos clave del pensamiento estratégico, su aplicación en diversos contextos organizacionales, y en las metodologías prospectivas para planificar el futuro de manera sostenible y eficiente.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para liderar el cambio con visión, estrategia y proactividad!
+              p.descripcion.mb-4 En un mundo cada vez más dinámico y complejo, la prospectiva estratégica se presenta como una herramienta esencial para visualizar futuros alternativos y planificar estrategias adaptativas. A través de metodologías avanzadas como PESTEL, Delphi y escenarios normativos y exploratorios, esta unidad invita a los estudiantes a desarrollar habilidades críticas para identificar tendencias, gestionar la incertidumbre y anticipar cambios en entornos sociales, económicos y tecnológicos. La capacidad de construir y analizar escenarios futuros permitirá a los profesionales no solo reaccionar, sino liderar con proactividad en mercados globales en constante transformación.
+                br
+                br
+                |¡Prepárate para tomar decisiones estratégicas que impacten el futuro con visión y confianza!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

@@ -1,47 +1,252 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Estrategia: definición y características en contextos complejos'")
+  BannerInterno(:subTitulo="'1. Prospectiva y escenarios futuro'")
   .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
-
-    .row.mb-4
+    p.mb-4 Para comenzar con el estudio de esta temática, lo invitamos a ver el siguiente video:
+    .bg-full-width.bg-motivo.p-5.mb-5
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+    .row.justify-content-center.mb-5
       .col-lg-8
-        .fondo-color-sistema-l.p-4(data-aos="fade-left").mb-4
-          .row.align-items-start
-            .col-lg-auto
-              img(src="@/assets/curso/tema1/1.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 El entorno organizacional actual, se caracteriza por su constante cambio, incertidumbre y complejidad. En este contexto, entender cómo se definen y aplican las estrategias, se vuelve fundamental para los profesionales que buscan liderar procesos eficientes y adaptativos. Esta unidad se enfoca en la integración del pensamiento complejo y el pensamiento sistémico, como herramientas esenciales para la toma de decisiones estratégicas.
-        p.mb-0 La estrategia, como concepto, ha evolucionado desde enfoques tradicionales hacia visiones más amplias que contemplan la incertidumbre y las dinámicas propias de los entornos contemporáneos. En este marco, no basta con establecer objetivos rígidos; es necesario desarrollar la capacidad de adaptación y una visión integral que contemple múltiples variables interconectadas (Chávez Martínez, 2003).
-
-      .col-lg-4.order-first.order-lg-last
-        figure.mb-4.mb-lg-0
-            img(src="@/assets/curso/tema1/2.png", data-aos="zoom-in")
-    
-    .fondo-color-sistema-k.mb-4
+        .bg-color-white.shadow-soft.py-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-md-auto
+              img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Deconstruyendo Futuros - Documental sobre Prospectiva
+                  p IAEN Universidad. (2022). Deconstruyendo Futuros - Documental sobre Prospectiva (video). YouTube. 
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-arrow-right
+    Separador
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.1 Metodologías principales en prospectiva
+    p.mb-4 Lo invitamos a conocer algunas de las principales metodologías.
+    h3 Método Delphi
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/4.png', alt='')
+      .col-lg-7
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          div(titulo="1. Origen y fundamento científico ")
+            p.mb-0 El método Delphi fue desarrollado en la década de 1950 por Olaf Helmer y Norman Dalkey, investigadores de la RAND Corporation, con el objetivo de mejorar la precisión de las previsiones mediante un consenso iterativo de expertos. Originalmente, fue utilizado en estudios militares para anticipar desarrollos tecnológicos y escenarios estratégicos de largo plazo. Su éxito inicial, lo llevó a ser aplicado en una amplia variedad de campos, desde la educación y la tecnología, hasta la economía y la política. (Helmer, 1967)
+          div(titulo="2. Definición y Propósito")
+            p.mb-0 El método Delphi es una técnica de previsión estructurada, basada en la consulta anónima a un grupo de expertos, cuya opinión se solicita en varias rondas sucesivas. Su objetivo principal es el de alcanzar un consenso informado sobre eventos futuros o tendencias emergentes, minimizando los sesgos individuales o grupales. Cada ronda permite ajustar las respuestas de los expertos, incorporando nueva información o reconsiderando su evaluación, a partir del conocimiento colectivo generado.
+    .bg-color-1.p-4.mb-4(data-aos="fade-left" style="background-color: #f8dcf6 ")
       .row.align-items-center
-        .col-lg-4
-          figure
-            img.mx-auto(src="@/assets/curso/tema1/3.png")
-        .col-lg-8
-          p.mb-0.p-4 El pensamiento complejo, propuesto por Edgar Morin, permite analizar las organizaciones y sus desafíos, desde una perspectiva multidimensional, considerando las interacciones entre distintos factores internos y externos. Por otro lado, el pensamiento sistémico facilita la comprensión de cómo las partes de un sistema, están relacionadas entre sí, lo que resulta indispensable para la toma de decisiones estratégicas eficaces (Bas Amorós, 2013).
+        .col-lg-auto
+          img(src="@/assets/curso/temas/5.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 Este método es #[b particularmente útil] cuando se enfrentan problemas complejos o se requiere un análisis de futuro, en situaciones con un alto grado de incertidumbre.
+    p.mb-4 Conozcamos cómo es la estructura del proceso Delphi:
+    .bg-full-width.bg-motivo.p-5.mb-5  
+      SlyderA(tipo='b').bg-white
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Selección de expertos
+            p Se conforma un panel multidisciplinario de especialistas en el tema de estudio. La diversidad de perspectivas, mejora la calidad del análisis.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/6.png', alt='Texto que describa la imagen')
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Primera ronda
+            p Los expertos responden un cuestionario inicial con preguntas abiertas o cerradas, sobre un evento futuro o tema específico.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/7.png', alt='Texto que describa la imagen')
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Análisis y retroalimentación
+            p Se recopilan las respuestas y se generan resúmenes estadísticos y cualitativos. Esta información se envía a los participantes, para su revisión.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/8.png', alt='Texto que describa la imagen')
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Segundas y sucesivas rondas
+            p Los expertos ajustan sus respuestas en función de los resultados y comentarios recibidos  en la ronda anterior. El proceso se repite hasta que se alcanza un consenso o estabilidad, en las opiniones.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/9.png', alt='Texto que describa la imagen')
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Informe final
+            p Se presenta un informe con las conclusiones consensuadas, indicando las tendencias o escenarios más probables, identificados durante el proceso.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/10.png', alt='Texto que describa la imagen')
+    p.mb-4 Y ahora, sus ventajas, limitaciones y aplicaciones:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.png', alt='')
+      .col-lg-7
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          div(titulo="Ventajas ").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Reducción del sesgo grupal.] El anonimato de los participantes, evita la influencia de jerarquías o presiones sociales.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Visión multidisciplinaria.] La participación de expertos en diversas áreas, enriquece el análisis.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Iteración y refinamiento.] Las rondas sucesivas, permiten ajustar opiniones y mejorar la precisión del consenso.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Adaptabilidad.] Puede aplicarse en diversos contextos, desde predicciones tecnológicas, hasta la planificación educativa.
+          div(titulo="Limitaciones").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Tiempo y recursos.] El proceso puede ser largo y requerir múltiples iteraciones.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Selección de expertos.] La calidad del resultado depende de la adecuada selección del panel de expertos.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Dependencia de la participación.] Si los expertos no colaboran activamente, el proceso puede verse afectado.
+          div(titulo="Aplicaciones").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Tecnología y ciencia.] Anticipación de desarrollos tecnológicos emergentes.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Educación.] Diseño de futuros escenarios educativos o planificación curricular.
 
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Economía y finanzas.] Previsión de cambios macroeconómicos y tendencias de mercado.
 
-    .bg-full-width.fondo-color-sistema-i
-      .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-7
-            h2.mb-4(data-aos="flip-up") Decisiones estratégicas en condiciones de volatilidad y promueve la innovación
-            p.mb-4(data-aos="fade-right") En el PDF #[b Estrategia], se analizan los conceptos de estrategia y pensamiento complejo en un entorno organizacional caracterizado por la incertidumbre y la constante evolución. Se estudia cómo la estrategia ha pasado de enfoques rígidos hacia modelos adaptativos y flexibles que integran el pensamiento sistémico para entender las interrelaciones entre factores internos y externos, junto al pensamiento complejo, que permite gestionar la ambigüedad y no linealidad de los sistemas modernos. Este enfoque guía la toma de decisiones estratégicas en condiciones de volatilidad y promueve la innovación, sostenibilidad y resiliencia organizacional.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Política pública.] Análisis de riesgos sociales y desarrollo de estrategias a largo plazo.
+          div(titulo="Ejemplo de uso ").p-3
+            p.mb-0 Un ejemplo reciente del uso de Delphi, es su aplicación en la pandemia del COVID-19, donde varios gobiernos y organizaciones utilizaron esta técnica para anticipar los impactos económicos y sociales del confinamiento. Un panel de expertos en salud pública, economía y ciencias sociales, participó en varias rondas para identificar los escenarios más probables de recuperación post-pandemia y proponer estrategias para mitigar los efectos negativos.
+    .bg-color-1.p-4.mb-5(data-aos="fade-left" style="background-color: #fff8d5 ")
+      .row.align-items-center
+        .col-lg-auto
+          img(src="@/assets/curso/temas/12.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 El método Delphi es una herramienta poderosa para la construcción de consenso y previsión estratégica, especialmente en situaciones donde la incertidumbre es alta y las decisiones deben tomarse en función de múltiples perspectivas. Su capacidad para minimizar los sesgos y fomentar la participación interdisciplinaria lo convierte en una opción ideal para escenarios de alta complejidad. 
+    h3 Análisis PESTEL
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Origen y fundamento científico" :icono="require('@/assets/curso/temas/icono.svg')")(style='background-color:#f4f4f4 ')
+        .row
+          .col-lg-5.col-7.mb-4.mb-lg-0: img(src='@/assets/curso/temas/13.png', alt='')
+          .col-md-7
+            h4 Origen y fundamento científico
+            p El análisis PESTEL es una metodología derivada del enfoque sistémico para la gestión estratégica, que surgió como una evolución del análisis PEST (Político, Económico, Social y Tecnológico). Posteriormente, se añadieron los factores Ecológicos y Legales, lo que llevó a su forma actual. Este marco fue popularizado por académicos como Francis Aguilar (1967) y se utiliza para identificar y evaluar las fuerzas macroambientales que afectan a una organización o sector.
+              br
+              br
+              |El análisis PESTEL proporciona una visión integral del entorno externo, permitiendo comprender cómo los cambios en diversas áreas impactan en las operaciones de una empresa. Es una herramienta muy útil para identificar riesgos estratégicos y oportunidades emergentes a partir de factores globales que suelen ser ajenos al control directo de la organización.
+      .py-4.py-md-5(titulo="Definición y propósito" :icono="require('@/assets/curso/temas/icono.svg')")(style='background-color: #f4f4f4')
+        .row
+          .col-lg-5.col-7.mb-4.mb-lg-0: img(src='@/assets/curso/temas/14.png', alt='')
+          .col-md-7
+            h4 Definición y propósito
+            p El análisis PESTEL evalúa los factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales, que influyen en el desempeño de una organización. Su propósito es proporcionar una visión amplia del entorno para que ayude a las organizaciones a identificar tendencias claves y prepararse para cambios futuros. Esta herramienta permite diseñar estrategias alineadas con las dinámicas externas, asegurando que las decisiones tomadas hoy, se ajusten a las condiciones del mañana. (Boada & Cardona Montoya, 2020)
+    p.mb-4 Los componentes del análisis PESTEL, son:
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          div(titulo="1. Factores Políticos").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Estabilidad gubernamental y cambios en el liderazgo.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Políticas fiscales, arancelarias y comerciales.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong> Tipos de proyectos
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Impacto de las regulaciones y tratados internacionales.
+          div(titulo="2. Factores Económicos ").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Tendencias de crecimiento económico y tasas de inflación.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Fluctuaciones del tipo de cambio y acceso al crédito.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Condiciones del mercado laboral y poder adquisitivo.
+          div(titulo="3. Factores Sociales ").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Cambios en los valores culturales y comportamientos de consumo.
 
-          .col-lg-5
-            figure(data-aos="zoom-in")
-              img.ms-auto(src='@/assets/curso/tema1/4.png',style="max-width: 400px;")
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Crecimiento demográfico y migración.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Niveles de educación y bienestar social.
+    
+
+    
 </template>
 
 <script>

@@ -2,53 +2,27 @@
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-
-    .fondo-personalizado-1.size-full.med.pos-bottom.bottom-1.f1
-      .fondo-personalizado-1__contenido
-        .row.mb-4
-          .col-lg-8
-            .fondo-color-sistema-i.p-4.mb-4
-              p.mb-0 En un mundo donde los cambios son constantes y las organizaciones enfrentan entornos cada vez más inciertos y dinámicos, es fundamental desarrollar estrategias que vayan más allá de la planificación tradicional. Esta unidad se enfoca en la integración del pensamiento sistémico y complejo, como herramientas esenciales, para liderar procesos estratégicos en escenarios complejos. La capacidad de analizar la interdependencia entre múltiples variables y adaptarse de manera continua, resulta clave para la toma de decisiones efectivas en contextos volátiles.
-            p.mb-4 Al finalizar esta unidad, se espera que los estudiantes desarrollen habilidades para evaluar estrategias en función del entorno, integrando principios del pensamiento sistémico y justificando la toma de decisiones bajo incertidumbre. Estos conocimientos serán fundamentales para enfrentar los desafíos contemporáneos en el ámbito organizacional y empresarial, fomentando una perspectiva estratégica y proactiva.
-            p.fw-bold El contenido de la unidad se organiza en tres ejes principales:
-          .col-lg-4.order-first.order-lg-last
-            figure.mb-4.mb-lg-0
-              img.mx-auto(src="@/assets/curso/intro/1.png",style="max-width: 400px;")
-        
-        .row.justify-content-center
-          .col-lg-4.col-md-6.mb-4
-            .fondo-color-sistema-j.borde-15.p-3.h-100.align-content-center
-              .row.align-items-center
-                .col-md-auto
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/intro/3.svg",style="max-width: 90px;")
-                .col
-                  p.mb-0.text-white La evolución y características de la estrategia.
-          .col-lg-4.col-md-6.mb-4
-            .bg-white.borde-15.p-3.h-100.align-content-center.sombra-p-1
-              .row.align-items-center
-                .col-md-auto
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/intro/4.svg",style="max-width: 90px;")
-                .col
-                  p.mb-0 La aplicación del pensamiento sistémico y complejo.
-          .col-lg-4.col-md-6.mb-4
-            .bg-white.borde-15.p-3.h-100.align-content-center.sombra-p-1
-              .row.align-items-center
-                .col-md-auto
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/intro/5.svg",style="max-width: 90px;")
-                .col
-                  p.mb-0 La toma de decisiones en condiciones inciertas.
-    
-    .row
-      .col-lg-4
-        figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/intro/6.png",style="max-width: 400px;")
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3
+        .p-4.mb-4(style="background-color: #fbecfa")
+          p.mb-0 En un contexto global marcado por cambios rápidos e incertidumbre, la prospectiva estratégica surge como una herramienta indispensable para anticipar futuros posibles. Las organizaciones deben prepararse para enfrentar tanto riesgos como oportunidades, adaptándose con agilidad a las transformaciones tecnológicas, sociales y económicas. Esta Unidad 2 se enfoca en brindar a los estudiantes los conocimientos necesarios para analizar y gestionar escenarios futuros, permitiendo la toma de decisiones estratégicas, fundamentadas en entornos complejos.
+        p.mb-0 El objetivo principal de la unidad es introducir el pensamiento prospectivo y las metodologías para la construcción de escenarios alternativos. Con herramientas como PESTEL, Delphi y escenarios exploratorios y normativos, los estudiantes desarrollarán habilidades para anticipar eventos futuros, evaluar riesgos y planificar estrategias adaptativas. De esta forma, podrán visualizar múltiples trayectorias posibles y alinear sus decisiones con los objetivos estratégicos de las organizaciones.
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/1.svg', alt='')
+    .bg-color-1.p-4.mb-4(data-aos="fade-left" style="background-color: #fff8d5 ")
+      .row.align-items-center
+        .col-lg-auto
+          img(src="@/assets/curso/temas/2.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 La unidad también destaca tendencias emergentes claves, como la inteligencia artificial, la regionalización, la transformación digital y la economía verde, las cuales están moldeando el entorno global.
+    p.mb-4 Estas tendencias exigen que las organizaciones reconfiguren sus modelos de negocio y adopten enfoques innovadores para mantener su competitividad y relevancia en mercados cambiantes.  La regionalización de las cadenas de suministro, por ejemplo, aumenta la resiliencia, mientras que la economía verde, impulsa la sostenibilidad. 
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3.png', alt='')  
       .col-lg-8
-        p.mb-lg-5 A lo largo de estas secciones, se presentarán casos prácticos, reflexiones conceptuales y ejercicios, que permitan consolidar las competencias esperadas. Se alienta la participación activa en las actividades propuestas, así como una reflexión constante sobre la aplicabilidad del contenido en situaciones reales.
-        .fondo-color-sistema-k.p-4
-          p.mb-0 Se espera que los estudiantes asuman un rol activo en su proceso de aprendizaje, participando en discusiones y actividades colaborativas. El compromiso con las tareas asignadas y la disposición para integrar conceptos nuevos, serán esenciales para aprovechar al máximo esta unidad. Con este enfoque, se busca preparar a los participantes para enfrentar la complejidad del entorno empresarial contemporáneo y tomar decisiones estratégicas con mayor confianza y efectividad.
+        .p-4(style="background-color: #d9eff8 ")
+          p.mb-0 Finalmente, esta unidad subraya la importancia de integrar la prospectiva estratégica con la gestión del riesgo, para fortalecer la resiliencia organizacional. A través de esta integración, los estudiantes aprenderán a gestionar la incertidumbre proactivamente, identificando amenazas y capitalizando oportunidades. La capacidad de anticipación será una ventaja clave para enfrentar los desafíos futuros y posicionarse estratégicamente, en un entorno global dinámico.
+    
+        
+    
 
 </template>
 
