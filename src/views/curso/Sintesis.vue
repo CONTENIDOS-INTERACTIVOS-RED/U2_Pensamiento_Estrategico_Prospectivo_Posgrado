@@ -2,10 +2,10 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad 1: Estrategia y pensamiento complejo, establece los fundamentos teóricos esenciales para comprender la evolución de la estrategia y su aplicación en entornos dinámicos e inciertos. Esta unidad proporciona herramientas como el pensamiento sistémico y el pensamiento complejo, permitiendo analizar interrelaciones, gestionar la incertidumbre y fomentar la resiliencia organizacional. Este enfoque integral asegura que los estudiantes desarrollen habilidades para la toma de decisiones estratégicas adaptativas, preparándolos para liderar en contextos empresariales contemporáneos con mayor confianza y efectividad.
+    p.mb-4.mb-md-5 La Unidad 2: Prospectiva y escenarios futuros, introduce a los estudiantes en el uso del pensamiento prospectivo como una herramienta clave para anticipar y gestionar futuros posibles en un entorno global cambiante. Esta unidad proporciona las bases conceptuales y metodológicas para analizar tendencias, identificar riesgos y construir escenarios normativos y exploratorios. A través de metodologías como PESTEL, Delphi y escenarios híbridos, los estudiantes desarrollarán habilidades para tomar decisiones estratégicas adaptativas, fortaleciendo la resiliencia organizacional y alineando sus acciones con los objetivos estratégicos de las organizaciones en entornos complejos y dinámicos.
     .fondo-color-sistema-q.p-4
       figure
-        img(src='@/assets/componentes/sintesis.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/sintesis.svg', alt='Texto que describa la imagen')
     
 
 </template>

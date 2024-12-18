@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'1. Prospectiva y escenarios futuro'")
-  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden.bg-tema-1
     p.mb-4 Para comenzar con el estudio de esta temática, lo invitamos a ver el siguiente video:
     .bg-full-width.bg-motivo.p-5.mb-5
       figure

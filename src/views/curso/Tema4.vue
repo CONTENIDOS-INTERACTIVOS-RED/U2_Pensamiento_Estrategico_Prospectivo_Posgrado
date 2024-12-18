@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'4. Diseño y análisis de escenarios futuros'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bg-tema-4
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color:#F0F0F0 ")
       .row.justify-content-center.align-items-center
         .col-lg.order-2
@@ -26,7 +26,7 @@
                   h3.mb-1 Tabla 1
                   p Para comenzar con el estudio de esta temática, lo invitamos a ver el siguiente pdf:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexos_tabla1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-arrow-right
     h3 Aplicaciones prácticas del diseño de escenarios futuros
@@ -55,7 +55,7 @@
                   h3.mb-1 Tabla 2
                   p Para comenzar con el estudio de esta temática, lo invitamos a ver el siguiente pdf:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexos_tabla2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-arrow-right
     .row.justify-content-center.mb-5
@@ -78,7 +78,7 @@
                   h3.mb-1 Tabla 3
                   p Para comenzar con el estudio de esta temática, lo invitamos a ver el siguiente pdf:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexos_tabla3.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-arrow-right
     .p-4(style="background-color: #D9EFF8 ")

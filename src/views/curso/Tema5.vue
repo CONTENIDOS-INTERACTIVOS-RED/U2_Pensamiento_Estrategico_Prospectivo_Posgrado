@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'5. Identificación de riesgos, oportunidades y tendencias globales'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bg-tema-5
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .bg-color-1.p-4.mb-5.h-100.d-flex.align-items-center(data-aos="fade-left" style="background-color: #FFF8D5 ")
@@ -110,7 +110,7 @@
                   h3.mb-1 Tabla 4
                   p Para comenzar con el estudio de esta temática, lo invitamos a ver el siguiente pdf:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexos_tabla4.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-arrow-right
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -144,7 +144,7 @@
             h2.mb-4(data-aos="flip-up") Oportunidades y tendencias globales
             p.mb-4(data-aos="fade-right") El año 2024 plantea un panorama global de retos significativos, pero también de oportunidades estratégicas que pueden redefinir sectores y mejorar la resiliencia frente a las crisis. A continuación, el PDF Oportunidades y tendencias globales, explora tendencias clave como la transición hacia una economía verde, el avance de la inteligencia artificial, la regionalización de las cadenas de suministro, la gobernanza digital y la innovación en el sector salud. A través de estas áreas, se destacan oportunidades para quienes adopten un enfoque proactivo, aprovechando las transformaciones para generar impacto positivo y ventaja competitiva en un entorno global en constante cambio.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexos_Oportunidades_y_tendencias_globales_en_el_2024.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

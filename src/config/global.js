@@ -15,80 +15,77 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Estrategia: definición y características en contextos complejos',
+        titulo: 'Prospectiva y escenarios futuro',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Metodologías principales en prospectiva',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Pensamiento sistémico y pensamiento complejo',
+        titulo: 'Escenarios normativos y exploratorios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              'Características del pensamiento sistémico y del pensamiento complejo, en la estrategia',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Aplicaciones en la gestión estratégica',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Importancia para los líderes y tomadores de decisiones',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Evaluación de la toma de decisiones en entornos inciertos',
+        titulo: 'Escenarios híbridos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Principales desafíos',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Herramientas para la toma de decisiones estratégicas, en incertidumbre',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo:
-              'Importancia del <em>feedback</em> y la evaluación continua',
-            hash: 't_3_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Evaluación de la toma de decisiones en entornos inciertos',
+        titulo: 'Diseño y análisis de escenarios futuros',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Evaluación de la toma de decisiones en entornos inciertos',
+        titulo:
+          'Identificación de riesgos, oportunidades y tendencias globales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Principios fundamentales de la ISO 31000',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Definición operativa del riesgo en la ISO 31000',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Proceso de gestión del riesgo, según la ISO 31000',
+            hash: 't_5_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.4',
+            titulo: 'Justificación de la gestión del riesgo con la ISO 31000',
+            hash: 't_5_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.5',
+            titulo: 'Oportunidades y tendencias globales en el 2024',
+            hash: 't_5_5',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',

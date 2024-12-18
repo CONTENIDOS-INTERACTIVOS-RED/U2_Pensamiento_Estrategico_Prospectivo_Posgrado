@@ -58,9 +58,21 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/28.png', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+      .tarjeta.bg-white.p-3(x="30.5%" y="57%" numero="+")
+        .h5.mb-2 Identificación de variables claves
+        p Se seleccionan las tendencias y factores que tienen mayor impacto en el futuro del sector o industria analizada.
+      .tarjeta.bg-white.p-3(x="36.5%" y="34%" numero="+")
+        .h5.mb-2 Definición de supuestos críticos
+        p Se establecen las condiciones o incertidumbres críticas, que determinarán la evolución de los escenarios.
+      .tarjeta.bg-white.p-3(x="49.5%" y="35%" numero="+")
+        .h5.mb-2 Construcción de los escenarios
+        p Se crean varios escenarios (optimista, pesimista, tendencial o híbrido), considerando las combinaciones posibles de las variables.
+      .tarjeta.bg-white.p-3(x="63%" y="34%" numero="+")
+        .h5.mb-2 Evaluación del impacto
+        p Se analizan las consecuencias estratégicas de cada escenario y las posibles respuestas, para aprovechar oportunidades o mitigar riesgos.
+      .tarjeta.bg-white.p-3(x="69.5%" y="57%" numero="+")
+        .h5.mb-2 Diseño de estrategias
+        p Las decisiones se alinean con los resultados del análisis, para garantizar que la organización esté preparada para cualquier evolución futura.
     p.mb-5 Y finalicemos con las ventajas, limitaciones y aplicaciones de la construcción de escenarios:
     .bg-full-width.bg-motivo.p-5.mb-5  
       SlyderA(tipo='b').bg-white
