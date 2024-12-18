@@ -244,7 +244,192 @@
                   img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
               .col
                 p.mb-0 Niveles de educación y bienestar social.
-    
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/15.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.png', alt='')
+      .col-lg-8 
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          div(titulo="4. Factores Tecnológicos").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Innovaciones tecnológicas emergentes y digitalización.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Inversión en investigación y desarrollo.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Disrupción de industrias por nuevas tecnologías.
+          div(titulo="5. Factores Ecológicos ").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Regulaciones ambientales y políticas de sostenibilidad.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Impacto del cambio climático en las operaciones.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Tendencias hacia energías limpias y economía circular.
+          div(titulo="6. Factores Legales ").p-3
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Cambios en normativas laborales y de protección al consumidor.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Cumplimiento regulatorio y riesgos legales.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Políticas de privacidad y protección de datos.
+    p.mb-4 Y el proceso es:
+    .row.justify-content-center.mb-5
+      .col-lg-3.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/17.png" alt="")
+          .custom-image-card__text.p-4.text-center
+            h4.mb-2 Identificación de los factores claves
+            p.mb-0 Se recopila información relevante de cada una de las áreas PESTEL, en relación con el sector o industria.
+      .col-lg-3.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/18.png" alt="")
+          .custom-image-card__text.p-4.text-center
+            h4.mb-2 Evaluación del impacto
+            p.mb-0 Se analizan los efectos positivos y negativos que estos factores podrían tener sobre la organización.
+      .col-lg-3.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/19.png" alt="")
+          .custom-image-card__text.p-4.text-center
+            h4.mb-2 Priorización de riesgos y oportunidades
+            p.mb-0 Se identifican los elementos que requieren mayor atención, en la planificación estratégica.
+      .col-lg-3.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/20.png" alt="")
+          .custom-image-card__text.p-4.text-center
+            h4.mb-2 Diseño de estrategias
+            p.mb-0 Las decisiones estratégicas se alinean con los resultados del análisis, para aprovechar oportunidades y mitigar riesgos.
+    p.mb-4 Finalicemos con sus ventajas, limitaciones y aplicaciones:
+    .bg-full-width.bg-motivo.p-5.mb-5  
+      SlyderA(tipo='b').bg-white
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Ventajas 
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Visión integral.] Ofrece una perspectiva amplia del entorno externo y sus posibles efectos.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Identificación de riesgos y oportunidades.] Permite anticipar cambios que podrían impactar en la organización.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Orientación estratégica.] Facilita la alineación de las estrategias, con las dinámicas globales.
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Adaptabilidad.] Se puede aplicar a organizaciones de cualquier sector y tamaño.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/21.png', alt='Texto que describa la imagen')
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Limitaciones
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Dependencia de la calidad de la información. Un análisis incorrecto o basado en datos incompletos, puede llevar a decisiones erróneas.
+
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Naturaleza dinámica. Dado que el entorno cambia rápidamente, el análisis PESTEL debe ser actualizado con frecuencia.
+
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 Enfoque externo. No considera factores internos de la organización, por lo que debe complementarse con otras herramientas, como el análisis FODA.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/22.png', alt='Texto que describa la imagen')
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Aplicaciones
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Estrategia empresarial.] Identificación de oportunidades de crecimiento y mitigación de riesgos regulatorios.
+
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Planificación de mercados internacionales.] Evaluación de la viabilidad de ingresar a nuevos mercados.
+
+            .row.justify-content-center.align-items-center.mb-1
+              .col-auto
+                figure
+                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+              .col
+                p.mb-0 #[b Sostenibilidad y RSC.] Identificación de regulaciones ambientales y alineación con prácticas sostenibles.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/23.png', alt='Texto que describa la imagen')
+        .row.p-5
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Ejemplo de uso 
+            p Una empresa de energías renovables aplica el análisis PESTEL para identificar regulaciones ambientales que incentiven  el uso de fuentes energéticas limpias. El análisis revela que la legislación favorece la inversión en energías solares y eólicas, pero también destaca riesgos asociados a cambios en los subsidios gubernamentales. La empresa ajusta su estrategia para aprovechar estos incentivos y protegerse frente a fluctuaciones normativas.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/24.png', alt='Texto que describa la imagen')
+    .bg-color-1.p-4.mb-5(data-aos="fade-left" style="background-color: #D9EFF8 ")
+      .row.align-items-center
+        .col-lg-auto
+          img(src="@/assets/curso/temas/25.png", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 El análisis PESTEL es una herramienta valiosa para las organizaciones que buscan alinear sus estrategias con las fuerzas externas que moldean su entorno. Proporciona una visión sistémica y multidimensional del contexto global, ayudando a los líderes a identificar tendencias emergentes, riesgos y oportunidades. Aunque su enfoque es externo, su correcta aplicación permite preparar a las organizaciones para navegar con éxito en mercados complejos y cambiantes. 
 
     
 </template>
