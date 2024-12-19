@@ -113,10 +113,8 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        '',
-      link:
-        '',
+      referencia: '',
+      link: '',
     },
   ],
   glosario: [
