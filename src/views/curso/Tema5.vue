@@ -137,7 +137,7 @@
               img(src="@/assets/curso/temas/60.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 La ISO 31000:2018, redefine el riesgo como una oportunidad para el crecimiento, además de una amenaza. Con un enfoque proactivo, las organizaciones no solo mitigan amenazas, sino que también identifican oportunidades para mejorar su competitividad. Al integrar la gestión del riesgo en su estrategia, las organizaciones pueden responder con agilidad, a los desafíos actuales y futuros, alineando la toma de decisiones con sus objetivos estratégicos. 
-    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #EBF6FB ")
+    .bg-full-width.bg-color-2.mb-lg-0(style="background-color: #EBF6FB ")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
@@ -154,6 +154,12 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/61.png', alt='')
             
+
+    .bg-full-width.border-top.actividad.bg-color-actividad.mb-0
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
@@ -162,40 +168,8 @@
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?. LID Editorial España.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/42001" target="_blank" rel="noopener noreferrer") Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: Visiones). Plaza y Valdés.
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/217714" target="_blank" rel="noopener noreferrer") Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones. Fondo Editorial CEIPA.
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/75568" target="_blank" rel="noopener noreferrer") Chávez Martínez, G. (2003). El pensamiento del estratega. Plaza y Valdés.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/71774" target="_blank" rel="noopener noreferrer") López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica. Editorial Universo Sur.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/75157" target="_blank" rel="noopener noreferrer") López Segrera, F., Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización. Editorial Miguel Ángel Porrúa.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/228417" target="_blank" rel="noopener noreferrer") Perilla Maluche, R. B. Orjuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la escuela francesa. Sello Editorial Universidad del Tolima.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/59107" target="_blank" rel="noopener noreferrer") Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos. Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/120296" target="_blank" rel="noopener noreferrer") Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro. Ediciones Eón.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
@@ -220,11 +194,179 @@
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema5',
+  name: 'Tema3',
   components: {
-    BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Qué implica la regionalización de las cadenas de suministro?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Dependencia de proveedores globales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Fortalecimiento de la producción local para aumentar la resiliencia.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Eliminación de la sostenibilidad en procesos logísticos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aumento de los costos operativos.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La regionalización fortalece la producción local y aumenta la resiliencia.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el concepto de regionalización de cadenas de suministro.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué sector se beneficia principalmente de la inteligencia artificial en la prospectiva?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'Salud y bienestar.', esCorrecta: true },
+              { id: 'b', texto: 'Turismo y recreación.', esCorrecta: false },
+              { id: 'c', texto: 'Transporte tradicional.', esCorrecta: false },
+              {
+                id: 'd',
+                texto: 'Agricultura convencional.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Salud y bienestar es el sector que más se beneficia.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los sectores beneficiados por la inteligencia artificial en prospectiva.',
+          },
+          {
+            id: 3,
+            texto: '¿Qué oportunidad representa la economía verde?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Mayor dependencia de combustibles fósiles.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Inversión en energías renovables y tecnologías limpias.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Reducción de la innovación tecnológica.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aumento de residuos industriales.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La economía verde impulsa la inversión en energías renovables y tecnologías limpias.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las oportunidades de la economía verde.',
+          },
+          {
+            id: 4,
+            texto: '¿Qué estrategia fomenta la gobernanza digital?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Evitar la colaboración entre sectores.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Basar decisiones en información no verificada.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Promover la transparencia y luchar contra la desinformación.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Reducir la alfabetización digital.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La gobernanza digital promueve la transparencia y combate la desinformación.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las estrategias de gobernanza digital.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué factor se considera clave en la identificación de riesgos estratégicos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Recursos internos limitados.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Cambios en el entorno externo.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Proyecciones financieras estáticas.',
+                esCorrecta: false,
+              },
+              { id: 'd', texto: 'Rigidez organizacional.', esCorrecta: false },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Los cambios en el entorno externo son clave para identificar riesgos estratégicos.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los factores clave en la identificación de riesgos estratégicos.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -235,7 +377,6 @@ export default {
 </script>
 
 <style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+.bg-color-actividad
+  background-color: #EBF1F5
 </style>

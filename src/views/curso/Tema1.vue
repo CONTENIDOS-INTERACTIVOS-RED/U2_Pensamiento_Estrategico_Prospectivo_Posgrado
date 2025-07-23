@@ -3,26 +3,39 @@
   BannerInterno(:subTitulo="'1. Prospectiva y escenarios futuro'")
   .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden.bg-tema-1
     p.mb-4 Para comenzar con el estudio de esta temática, lo invitamos a ver el siguiente video:
-    .bg-full-width.bg-motivo.p-5.mb-5
+    .bg-full-width.bg-motivo.p-5.mb-0
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .bg-color-white.shadow-soft.py-4.px-lg-5
-          .row.justify-content-around.align-items-center
-            .col-md-auto
-              img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Deconstruyendo Futuros - Documental sobre Prospectiva
-                  p IAEN Universidad. (2022). Deconstruyendo Futuros - Documental sobre Prospectiva (video). YouTube. 
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-arrow-right
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/pz9hXO1dnfw?si=rqk8CQBL1PRA1ibE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .bg-full-width.bg-color-sintesis.mb-5
+      .px-4.px-md-5.py-4
+        p.mb-2 Para conocer más sobre la prospectiva, lo invitamos a ver el siguiente recurso:
+        
+        a.anexo.mb-2.bg-white.w-fit(href="https://www.youtube.com/watch?v=CcpkN0XtdaI" target="_blank")
+          .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+            img(src="@/assets/template/icono-yt.svg")
+          .anexo__texto
+            p <strong>Video. </strong> IAEN Universidad. (2022). Deconstruyendo Futuros - Documental sobre Prospectiva (video). YouTube. 
+    
+
+    
+
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-8
+    //-     .bg-color-white.shadow-soft.py-4.px-lg-5
+    //-       .row.justify-content-around.align-items-center
+    //-         .col-md-auto
+    //-           img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
+    //-         .col
+    //-           .row.justify-content-between.align-items-center
+    //-             .col.mb-3.mb-sm-0
+    //-               h3.mb-1 Deconstruyendo Futuros - Documental sobre Prospectiva
+    //-               p IAEN Universidad. (2022). Deconstruyendo Futuros - Documental sobre Prospectiva (video). YouTube. 
+    //-             .col-sm-auto
+    //-               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+    //-                 span Descargar
+    //-                 i.fas.fa-arrow-right
 
     #t_1_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.1] Metodologías principales en prospectiva
@@ -438,54 +451,27 @@
         .row.material-complementario
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?. LID Editorial España.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/42001" target="_blank" rel="noopener noreferrer") Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: Visiones). Plaza y Valdés.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/217714" target="_blank" rel="noopener noreferrer") Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones. Fondo Editorial CEIPA.
 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/75568" target="_blank" rel="noopener noreferrer") Chávez Martínez, G. (2003). El pensamiento del estratega. Plaza y Valdés.
+              a(href="https://digibug.ugr.es/bitstream/handle/10481/57829/Garrote%20Rojas_Interculturalidad.pdf?sequence=1&isAllowed=y" target="_blank" rel="noopener noreferrer") Garrote R. D. (2018) Educación intercultural en el aula. Revista prisma social # 22
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/71774" target="_blank" rel="noopener noreferrer") López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica. Editorial Universo Sur.
+              a(href="https://universidadeuropea.com/blog/analisis-pestel/" target="_blank" rel="noopener noreferrer") UE (2025) El análisis PESTEL y su relevancia a nivel financiero, comercial y logístico. [Blog]
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/75157" target="_blank" rel="noopener noreferrer") López Segrera, F., Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización. Editorial Miguel Ángel Porrúa.
+              | Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?. LID Editorial España.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/228417" target="_blank" rel="noopener noreferrer") Perilla Maluche, R. B. Orjuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la escuela francesa. Sello Editorial Universidad del Tolima.
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/6qEWc8Z5x2E?si=vqVtqOgqaHpHfzD-" target="_blank" rel="noopener noreferrer") Silva L. (2021, 11 de junio) Fundamentos de Análisis externo de una organización [video] YouTube.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/59107" target="_blank" rel="noopener noreferrer") Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos. Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/120296" target="_blank" rel="noopener noreferrer") Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro. Ediciones Eón.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistaespacios.com/a20v41n21/a20v41n21p29.pdf" target="_blank" rel="noopener noreferrer") Velásquez, J., Gómez, A., & Parra, D. (2020). Análisis prospectivo del entorno global y su impacto en las organizaciones. Revista Espacios, 41(21), 29.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.iso.org/standard/65694.html" target="_blank" rel="noopener noreferrer") International Organization for Standardization (ISO). (2018). ISO 31000:2018, Risk management – Guidelines.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://es.weforum.org/agenda/2024/01/informe-sobre-riesgos-globales-2024-los-desafios-mas-apremiantes-ponen-a-prueba-nuestra-capacidad-de-respuesta/" target="_blank" rel="noopener noreferrer") Foro Económico Mundial. (2024). Informe de Riesgos Globales 2024.
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/qNPN7yplXrw?si=BXzdtIu1CmbV2HfU" target="_blank" rel="noopener noreferrer") Vásquez, F. (7 oct 2017). Análisis de la relación educación-cultura-sociedad.
 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
