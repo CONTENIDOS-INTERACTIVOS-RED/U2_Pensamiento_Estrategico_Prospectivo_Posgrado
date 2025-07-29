@@ -144,7 +144,7 @@
             h2.mb-4(data-aos="flip-up") Oportunidades y tendencias globales
             p.mb-4(data-aos="fade-right") El año 2024 plantea un panorama global de retos significativos, pero también de oportunidades estratégicas que pueden redefinir sectores y mejorar la resiliencia frente a las crisis. A continuación, el PDF Oportunidades y tendencias globales, explora tendencias clave como la transición hacia una economía verde, el avance de la inteligencia artificial, la regionalización de las cadenas de suministro, la gobernanza digital y la innovación en el sector salud. A través de estas áreas, se destacan oportunidades para quienes adopten un enfoque proactivo, aprovechando las transformaciones para generar impacto positivo y ventaja competitiva en un entorno global en constante cambio.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexos_Oportunidades_y_tendencias_globales_en_el_2024.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
